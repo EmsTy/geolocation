@@ -1,0 +1,21 @@
+{
+  "name": "geolocation",
+  "version": "1.0.0",
+  "description": "api to store, get and delete geolocation data from database",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "jsonwebtoken": "^8.3.0",
+    "mongodb": "^3.1.1",
+    "mongoose": "^5.2.1",
+    "morgan": "^1.8.2",
+    "request": "^2.81.0"
+  }
+}
