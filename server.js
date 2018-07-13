@@ -18,7 +18,8 @@ db.connect();
 
 // requiring the auth controller and with app.use telling the app to link it to the route /users
 var auth = require('./auth/AuthController');
-app.use('/auth', auth);
+app.use('/api/auth', auth);
+
 
 // end point will be accessed by appending api to the end point
 var api = require('./app/routes/controller')(app, express);
